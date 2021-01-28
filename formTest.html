@@ -1,0 +1,45 @@
+<!doctype HTML>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>formTest</title>
+  </head>
+  <body>
+    <form action="/test.html">
+      <h1>Form 관련요소</h1>
+      <fieldset>
+        <legend>기본정보</legend>
+        <label for="userid">아이디:</label> <input type="text" placeholder="영문으로만 써주세요" id="userid">
+        <br>
+        <label for="userpw">비밀번호:</label> <input type="password" id="userpw">
+        <br>
+        성별: <label for="man">남자<input type="radio" name="gender" checked id="man"></label> <label for="woman">여자<input type="radio" name="gender" id="woman"></label>
+        <br>
+      </fieldset>
+      <fieldset>
+        <legend>부가정보</legend>
+        취미: 농구<input type="checkbox" name="hobby"> 축구<input type="checkbox" name="hobby">
+        <br>
+        프로필 사진 업로드: <input type="file">
+        <br>
+        <input type="submit" value="전송">
+        <br>
+        <input type="reset" value="취소">
+        <br>
+        <input type="button" value="등록">
+        <br>
+        <input type="image" src="https://file1.bobaedream.co.kr/army/2020/04/05/00/proo1586013069_2057148554.jpg" alt="로그인" width="100">
+      </form>
+      <br>
+      <br>
+      사는 지역: <select>
+        <option>서울</option>
+        <option>경기</option>
+        <option selected>대전</option>
+      </select>
+      <br>
+      자기소개: <textarea cols="30" rows="5" placeholder="자기 소개는 간단히">
+      </textarea>
+    </fieldset>
+  </body>
+</html>
